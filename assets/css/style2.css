@@ -27,3 +27,37 @@
     color: #F66F4D;
     background-color: transparent;
 }
+
+.button_1:hover {
+    color: #ffffff;
+    background-color: #F66F4D;
+}
+
+.tranisition_03 {
+    transition: 0.3s ease-in-out all;
+}
+
+/* .a_underline::after {
+    content: '';
+    width: 0%;
+    left: 50%;
+    height: 2px;
+    background-color: #00EAC7;
+    position: absolute;
+    bottom: -10%;
+    transition: all 300ms ease-in-out;
+}
+
+.a_underline:hover::after {
+    left: 0;
+    width: 100%;
+    color: #00EAC7;
+} */
+
+.width_h1 {
+    max-width: 577px;
+}
+
+.width_p {
+    max-width: 500px;
+}
