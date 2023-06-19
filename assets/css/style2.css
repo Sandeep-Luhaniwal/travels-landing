@@ -13,3 +13,17 @@
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+.button_1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    border: 1.4px solid #F66F4D;
+    border-radius: 27px;
+    padding: 19px 34px;
+    color: #F66F4D;
+    background-color: transparent;
+}
