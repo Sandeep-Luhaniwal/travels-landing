@@ -48,35 +48,35 @@ font-family: 'Sen', sans-serif; */
 .ff-tertiary{
     font-family: var(--ff-tertiary) !important;
 }
-.bg-color {
+.bg_color {
     background-color: var(--primary-color) !important;
 }
 
-.bg-secondary {
+.bg_secondary {
     background-color: var(--secondary-color) !important;
 }
 
-.bg-white {
+.bg_white {
     background-color: var(--white-color) !important;
 }
 
-.bg-black {
+.bg_black {
     background-color: var(--black-color) !important;
 }
 
-.bg-dark {
+.bg_dark {
     background-color: var(--dark-color) !important;
 }
 
-.bg-danger {
+.bg_danger {
     background-color: var(--danger-color) !important;
 }
 
-.bg-paragraph {
+.bg_paragraph {
     background-color: var(--paragraph-color) !important;
 }
 
-.bg-footer {
+.bg_footer {
     background-color: var(--footer-links) !important;
 }
 
