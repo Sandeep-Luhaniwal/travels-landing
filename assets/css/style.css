@@ -13,3 +13,10 @@
     margin-left: auto !important;
     margin-right: auto !important;
 }
+.iconBox{
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    border: 1px solid var(--paragraph-color);
+    border-radius: 50%;
+}
