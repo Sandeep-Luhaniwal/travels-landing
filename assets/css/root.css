@@ -178,27 +178,27 @@ font-family: 'Sen', sans-serif; */
     font-size: var(--fs-3xl) !important;
 }
 
-.fw-regular {
+.fw_regular {
     font-size: var(--regular) !important;
 }
 
-.fw-medium {
+.fw_medium {
     font-size: var(--medium) !important;
 }
 
-.fw-semiBold {
+.fw_semiBold {
     font-size: var(--semiBold) !important;
 }
 
-.fw-bold {
+.fw_bold {
     font-size: var(--bold) !important;
 }
 
-.fw-extraBold {
+.fw_extraBold {
     font-size: var(--extraBold) !important;
 }
 
-.fw-extraLarge {
+.fw_extraLarge {
     font-size: var(--extraLarge) !important;
 }
 
