@@ -19,6 +19,7 @@ font-family: 'Sen', sans-serif; */
     --fs-lg: 26px;
     --fs-2lg: 28px;
     --fs-3lg: 30px;
+    --fs-4lg: 40px;
     --fs-xl: 46px;
     --fs-2xl: 56px;
     --fs-3xl: 84px;
@@ -38,16 +39,29 @@ font-family: 'Sen', sans-serif; */
     --danger-color: #F66F4D;
     --paragraph-color: #5B5F62;
     --footer-links: #676A6C;
+    --box-color: #FFD482;
 }
-.ff-primary{
+
+.bg_box {
+    background-color: var(--box-color);
+}
+
+.fs_4lg {
+    font-size: var(--fs-4lg) !important;
+}
+
+.ff-primary {
     font-family: var(--ff-primary) !important;
 }
-.ff-secondary{
+
+.ff-secondary {
     font-family: var(--ff-secondary) !important;
 }
-.ff-tertiary{
+
+.ff-tertiary {
     font-family: var(--ff-tertiary) !important;
 }
+
 .bg_color {
     background-color: var(--primary-color) !important;
 }

@@ -13,10 +13,39 @@
     margin-left: auto !important;
     margin-right: auto !important;
 }
-.iconBox{
+
+.iconBox {
     height: 32px;
     width: 32px;
     background-color: transparent;
     border: 1px solid var(--paragraph-color);
     border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-75 {
+    padding-top: 75px;
+}
+
+.iconBox:hover {
+    border: 1px solid var(--danger-color);
+}
+
+.iconBox:hover svg path {
+    fill: #F66F4D;
+}
+
+.newsLatter {
+    min-height: 360px;
+    background-color: var(--box-color);
+    border-radius: 30px;
+    background-image: url(../img/png/lines.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
