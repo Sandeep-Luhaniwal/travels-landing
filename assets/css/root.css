@@ -19,6 +19,7 @@ font-family: 'Sen', sans-serif; */
     --fs-lg: 26px;
     --fs-2lg: 28px;
     --fs-3lg: 30px;
+    --fs-4lg: 40px;
     --fs-xl: 46px;
     --fs-2xl: 56px;
     --fs-3xl: 84px;
@@ -38,16 +39,30 @@ font-family: 'Sen', sans-serif; */
     --danger-color: #F66F4D;
     --paragraph-color: #5B5F62;
     --footer-links: #676A6C;
+    --header-card-color: #9498A4;
+    --box-color: #FFD482;
 }
-.ff-primary{
+
+.bg_box {
+    background-color: var(--box-color);
+}
+
+.fs_4lg {
+    font-size: var(--fs-4lg) !important;
+}
+
+.ff-primary {
     font-family: var(--ff-primary) !important;
 }
-.ff-secondary{
+
+.ff-secondary {
     font-family: var(--ff-secondary) !important;
 }
-.ff-tertiary{
+
+.ff-tertiary {
     font-family: var(--ff-tertiary) !important;
 }
+
 .bg_color {
     background-color: var(--primary-color) !important;
 }
@@ -102,6 +117,10 @@ font-family: 'Sen', sans-serif; */
 
 .color-danger {
     color: var(--danger-color) !important;
+}
+
+.color-card {
+    color: var(--header-card-color);
 }
 
 .color-paragraph {
@@ -164,27 +183,27 @@ font-family: 'Sen', sans-serif; */
     font-size: var(--fs-3xl) !important;
 }
 
-.fw-regular {
+.fw_regular {
     font-size: var(--regular) !important;
 }
 
-.fw-medium {
+.fw_medium {
     font-size: var(--medium) !important;
 }
 
-.fw-semiBold {
+.fw_semiBold {
     font-size: var(--semiBold) !important;
 }
 
-.fw-bold {
+.fw_bold {
     font-size: var(--bold) !important;
 }
 
-.fw-extraBold {
+.fw_extraBold {
     font-size: var(--extraBold) !important;
 }
 
-.fw-extraLarge {
+.fw_extraLarge {
     font-size: var(--extraLarge) !important;
 }
 
