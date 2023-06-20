@@ -48,3 +48,8 @@
 .border_redius_img{
     border-radius: 16px;
 }
+.book_btn{
+    background: #2D3134;
+border-radius: 46px;
+padding: 12px 16px;
+}
