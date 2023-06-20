@@ -80,6 +80,24 @@
     transform: rotate(90deg);
 }
 
+.happy_customer_arrows circle {
+    transition: 0.3s ease-in-out all;
+    cursor: pointer;
+}
+
+.happy_customer_arrows path {
+    transition: 0.3s ease-in-out all;
+    cursor: pointer;
+}
+
+.happy_customer_arrows:hover circle {
+    fill: #2D3134;
+}
+
+.happy_customer_arrows:hover path {
+    fill: white;
+}
+
 /* .white_line-1::after {
     content: "";
     position: absolute;
