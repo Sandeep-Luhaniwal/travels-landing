@@ -21,7 +21,7 @@ function slideShow() {
     list[activeList].classList.add('active', 'fadeInRight', 'animated')
 }
 
-setInterval(slideShow, 5000)
+setInterval(slideShow, 7000)
 
 nextButton.addEventListener('click', slideShow)
 
