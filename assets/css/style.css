@@ -73,24 +73,87 @@ input[placeholder="Enter Your email address"] {
     padding-right: 12px;
     opacity: 0.4;
 }
-input[placeholder="Enter Your email address"]:focus{
+
+input[placeholder="Enter Your email address"]:focus {
     opacity: 1;
 }
 
 input[type="email"] {
     outline: none;
 }
-.py-10{
+
+.py-10 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.px-12{
+
+.px-12 {
     padding-left: 12px;
     padding-right: 12px;
 }
-.br-14{
+
+.br-14 {
     border-radius: 14px;
 }
-.p-32{
-    padding: 33px;
+
+.p-32 {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+ul.containe {
+    overflow: hidden;
+}
+
+ul.containe li {
+    display: none;
+}
+
+ul.containe .active {
+    display: block;
+}
+
+.button-container button {
+    color: #fff;
+
+}
+
+.button-container {
+    position: absolute;
+    bottom: 64px;
+    right: 33px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) {
+    .p-32 {
+        padding: 32px;
+    }
+}
+
+@media (min-width:768px) {
+    .p-32 {
+        padding: 20px;
+    }
+}
+
+@media (min-width:992px) {
+    .p-32 {
+        padding: 33px;
+    }
 }

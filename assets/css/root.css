@@ -11,18 +11,18 @@ font-family: 'Sen', sans-serif; */
     --fs-2xs: 13px;
     --fs-xs: 14px;
     --fs-sm: 16px;
-    --fs-2sm: 18px;
-    --fs-3sm: 19px;
-    --fs-md: 20px;
-    --fs-2md: 21px;
-    --fs-3md: 24px;
-    --fs-lg: 26px;
-    --fs-2lg: 28px;
-    --fs-3lg: 30px;
-    --fs-4lg: 40px;
-    --fs-xl: 46px;
-    --fs-2xl: 56px;
-    --fs-3xl: 84px;
+    --fs-2sm: 16px;
+    --fs-3sm: 16px;
+    --fs-md: 16px;
+    --fs-2md: 17px;
+    --fs-3md: 17px;
+    --fs-lg: 19px;
+    --fs-2lg: 20px;
+    --fs-3lg: 21px;
+    --fs-4lg: 22px;
+    --fs-xl: 26px;
+    --fs-2xl: 36px;
+    --fs-3xl: 45px;
 
     --extraLarge: 900;
     --extraBold: 800;
@@ -120,7 +120,7 @@ font-family: 'Sen', sans-serif; */
 }
 
 .color-card {
-    color: var(--header-card-color);
+    color: var(--header-card-color) !important;
 }
 
 .color-paragraph {
@@ -249,6 +249,7 @@ font-family: 'Sen', sans-serif; */
         --fs-lg: 20px;
         --fs-2lg: 21px;
         --fs-3lg: 22px;
+        --fs-4lg: 24px;
         --fs-xl: 30px;
         --fs-2xl: 40px;
         --fs-3xl: 50px;
@@ -268,6 +269,7 @@ font-family: 'Sen', sans-serif; */
         --fs-lg: 22px;
         --fs-2lg: 24px;
         --fs-3lg: 26px;
+        --fs-4lg: 30px;
         --fs-xl: 35px;
         --fs-2xl: 44px;
         --fs-3xl: 60px;
@@ -287,6 +289,7 @@ font-family: 'Sen', sans-serif; */
         --fs-lg: 24px;
         --fs-2lg: 26px;
         --fs-3lg: 28px;
+        --fs-4lg: 34px;
         --fs-xl: 40px;
         --fs-2xl: 50px;
         --fs-3xl: 72px;
@@ -306,6 +309,7 @@ font-family: 'Sen', sans-serif; */
         --fs-lg: 26px;
         --fs-2lg: 28px;
         --fs-3lg: 30px;
+        --fs-4lg: 40px;
         --fs-xl: 46px;
         --fs-2xl: 56px;
         --fs-3xl: 84px;
