@@ -122,8 +122,30 @@ ul.containe .active {
 }
 
 .button-container button {
-    color: #fff;
+    background-color: transparent;
+    border: 1px solid #2D3134;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
 
+.button-container .right svg {
+    margin-bottom: 4px;
+    margin-right: 2px;
+}
+
+.button-container .left svg {
+    margin-bottom: 4px;
+    margin-left: 2px;
+}
+
+.button-container button:hover {
+    background-color: #2D3134;
+    border: 1px solid #2D3134;
+}
+
+.button-container button:hover svg path {
+    stroke: #FFFFFF;
 }
 
 .button-container {
@@ -132,6 +154,9 @@ ul.containe .active {
     right: 33px;
 }
 
+#next {
+    margin-left: 16px;
+}
 
 
 
