@@ -34,6 +34,8 @@ prevButton.addEventListener('click', () => {
     list[activeList].classList.add('active', 'fadeInLeft', 'animated')
 })
 
+// header slider
+ 
 
 // slider
 
