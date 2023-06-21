@@ -34,49 +34,55 @@ prevButton.addEventListener('click', () => {
     list[activeList].classList.add('active', 'fadeInLeft', 'animated')
 })
 
-// header slider
- 
+
+
 
 // slider
 
-
-
-  $('.slider').slick({
+$('.slider').slick({
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 0,
-    speed: 6000,
-    arrows:false,
-    pauseOnHover: false,
+    speed: 2000,
+    arrows: true,
+    pauseOnHover: true,
     cssEase: 'linear',
+    prevArrow: $(".r_arrow"),
+    nextArrow: $(".l_arrow"),
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1200,
             settings: {
                 slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        },
+        {
+
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
                 slidesToScroll: 1,
             }
         },
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
                 slidesToScroll: 1,
             }
         },
         {
-            breakpoint: 450,
+            breakpoint: 576,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
             }
         }
     ]
 
-    
+
 });
-
-
 
