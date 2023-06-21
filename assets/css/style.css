@@ -18,10 +18,19 @@
     height: 32px;
     width: 32px;
     background-color: transparent;
-    border: 1px solid var(--paragraph-color);
+    border: 1px solid var(--danger-color);
     border-radius: 50%;
-    cursor: pointer;
+    cursor: pointer; 
+    transition: all 500ms;
+}
 
+.iconBox:hover {
+    background-color: var(--danger-color);
+    transform: translateY(-5px);
+}
+
+.iconBox:hover svg path {
+    fill: #FAF8ED;
 }
 
 .buttonHeader {
@@ -59,37 +68,8 @@
     padding-top: 75px;
 }
 
-.iconBox:hover {
-    border: 1px solid var(--danger-color);
-}
 
-.iconBox:hover svg path {
-    fill: #F66F4D;
-}
 
-.newsLatter {
-    min-height: 360px;
-    background-color: var(--box-color);
-    border-radius: 30px;
-    background-image: url(../img/png/lines.png) !important;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.max-w-450 {
-    width: 450px;
-    border-radius: 12px;
-}
-
-.telegram_Box {
-    height: 40px !important;
-    width: 40px !important;
-    background: #F66F4D;
-    box-shadow: 0px 5px 14px rgba(247, 103, 67, 0.25);
-    border-radius: 12px;
-    cursor: pointer;
-}
 
 input[placeholder="Enter Your email address"] {
     font-family: var(--ff-primary);
@@ -127,15 +107,6 @@ input[type="email"] {
     padding: 20px;
 }
 
-
-
-
-
-
-
-
-
-
 ul.containe {
     overflow: hidden;
 }
@@ -150,7 +121,7 @@ ul.containe .active {
 
 .button-container button {
     background-color: transparent;
-    border: 1px solid #2D3134;
+    border: 1px solid var(--primary-color);
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -167,8 +138,8 @@ ul.containe .active {
 }
 
 .button-container button:hover {
-    background-color: #2D3134;
-    border: 1px solid #2D3134;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .button-container button:hover svg path {
@@ -184,7 +155,6 @@ ul.containe .active {
 #next {
     margin-left: 16px;
 }
-
 
 .line::before {
     content: "";
@@ -247,9 +217,9 @@ ul.containe .active {
 }
 
 .rectangel {
-    background: #EE8162;
+    background: var(--animation-color);
     border-radius: 245px;
-    animation: spin 4s linear infinite;
+    animation: spin 5s linear infinite;
 }
 
 .z-10 {
@@ -258,7 +228,7 @@ ul.containe .active {
 
 @keyframes spin {
     0% {
-        background: #EE8162;
+        background: var(--animation-color);
     }
 
     50% {
@@ -266,7 +236,49 @@ ul.containe .active {
     }
 
     100% {
-        background: #EE8162;
+        background: var(--animation-color);
+    }
+}
+
+.newsLatter {
+    min-height: 360px;
+    background-color: var(--box-color);
+    border-radius: 30px;
+    animation: spin_1 5s linear infinite;
+}
+
+.bg_img_line {
+    background-image: url(../img/png/lines.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.max-w-450 {
+    width: 450px;
+    border-radius: 12px;
+}
+
+.telegram_Box {
+    height: 40px !important;
+    width: 40px !important;
+    background: var(--danger-color);
+    box-shadow: 0px 5px 14px rgba(247, 103, 67, 0.25);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+@keyframes spin_1 {
+    0% {
+        background: var(--box-color);
+    }
+
+    50% {
+        background: var(--animation-color);
+    }
+
+    100% {
+        background: var(--box-color);
     }
 }
 
@@ -313,8 +325,6 @@ ul.containe .active {
         pointer-events: all;
         left: 0;
     }
-
-
 
     input[type="checkbox"]:checked~.cente .to {
         transform: rotate(45deg);
