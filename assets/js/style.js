@@ -131,3 +131,8 @@ $('.slider').slick({
 
 
 });
+
+
+// ************ AOS Animation ************
+AOS.init();
+once: true;
