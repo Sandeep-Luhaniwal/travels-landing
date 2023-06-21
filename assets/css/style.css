@@ -51,7 +51,7 @@
     border: 1.4px solid var(--danger-color);
     color: var(--primary-color);
     background-color: var(--danger-color);
-    box-shadow: 0px 8px 35px rgba(246, 142, 46, 0.8);
+    box-shadow: 1px 8px 8px rgba(246, 142, 46, 0.8);
     transform: translateY(-5px);
 }
 
@@ -509,18 +509,35 @@ ul.containe .active {
     background: #FDFEFF;
     box-shadow: 0px 28px 56px -6px rgba(246, 111, 77, 0.05);
     border-radius: 38px;
-    padding: 20px 28px;
-
+    padding: 16px;
 }
 
-.white_line-1 {
+.white_line-1::before {
+    content: '';
     position: absolute;
-    width: 48px;
-    height: 0px;
-    left: 178px;
-    top: 23px;
+    width: 2px;
+    height: 100%;
+    left: 0%;
+    top: 0;
     border: 1px solid #EAEAEB;
-    transform: rotate(90deg);
+}
+.white_line-2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0%;
+    top: 8px;
+    border: 1px solid #EAEAEB;
+}
+.white_line-3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0%;
+    top: -8px;
+    border: 1px solid #EAEAEB;
 }
 
 /* .white-line-1::after {
@@ -634,16 +651,16 @@ ul.containe .active {
 
 
     /* aashis Css */
-    .white_line-1 {
+    /* .white_line-1::before {
         position: absolute;
         width: 48px;
-        height: 0px;
-        left: 178px;
-        top: 41px;
+        height: 100%;
+        left: -12px;
+        top: 0;
         border: 1px solid #EAEAEB;
         transform: rotate(90deg);
         display: none;
-    }
+    } */
 
     .search_center {
         display: flex;
@@ -670,9 +687,7 @@ ul.containe .active {
         flex-direction: column;
     }
 
-    .gap_card {
-        gap: 16px;
-    }
+
 
     .margin_top_h {
         margin-top: 60px;
@@ -748,6 +763,13 @@ ul.containe .active {
         grid-row: 4/5;
         grid-column: 2/4;
     }
+
+    .cardtimeline {
+        background: #FDFEFF;
+        box-shadow: 0px 28px 56px -6px rgba(246, 111, 77, 0.05);
+        border-radius: 38px;
+        padding: 11px 20px 11px 25px;
+    }
 }
 
 @media (min-width:768px) {
@@ -771,6 +793,11 @@ ul.containe .active {
     .width_height {
         width: 54px;
         height: 54px;
+    }
+
+    .cardtimeline {
+        border-radius: 30px;
+        padding: 11px 10px 11px 15px;
     }
 
 }
@@ -824,6 +851,11 @@ ul.containe .active {
     /* PardeepCss */
     .gap_lg_20 {
         gap: 20px;
+    }
+
+    .cardtimeline {
+        border-radius: 38px;
+        padding: 11px 20px 11px 25px;
     }
 }
 
