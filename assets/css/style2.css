@@ -99,7 +99,7 @@
     top: -12px;
 } */
 
-.slider_arrow_right circle {
+/* .slider_arrow_right circle {
     transition: 0.3s ease-in-out all;
     cursor: pointer;
 }
@@ -121,7 +121,7 @@
 
 .happy_customer_arrows:hover .slider_arrow_right path {
     stroke: white;
-}
+} */
 
 .visite_text {
     top: 50%;
